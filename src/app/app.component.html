@@ -1,0 +1,14 @@
+<div class='container'>
+  <!-- <div class='listbox-parent'>
+    <ejs-listbox [dataSource]='data' [fields]="fieldSettings" sortOrder="Descending" [allowDragAndDrop]="true">
+    </ejs-listbox>
+  </div> -->
+  <div class='listbox-parent'>
+    <ejs-listbox [dataSource]='data' [fields]="fieldSettings" [allowDragAndDrop]="true" scope="combined-list">
+    </ejs-listbox>
+  </div>
+  <div class="listbox-child">
+    <ejs-listbox [dataSource]='dataChild' [fields]="fieldSettingsChild" [allowDragAndDrop]="true" scope="combined-list">
+    </ejs-listbox>
+  </div>
+</div>

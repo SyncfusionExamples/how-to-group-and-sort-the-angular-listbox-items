@@ -1,0 +1,29 @@
+@import '../node_modules/@syncfusion/ej2-dropdowns/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+/* .container {
+   margin-left: 38%;
+   margin-top: 10%;
+   width: 300px;
+} */
+
+.listbox-parent {
+    width: 300px;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    margin-left: 20%;
+    margin-right: 5%;
+    /* float: left; */
+}
+
+.listbox-child {
+    width: 300px;
+    margin-top: 15%;
+    /* float: left; */
+}
